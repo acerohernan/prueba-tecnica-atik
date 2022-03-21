@@ -1,0 +1,31 @@
+/* Settings */
+@import "settings/global";
+
+/* Fonts */
+@import "fonts/index";
+
+/* Components */
+@import "components/navbar";
+@import "components/slidernav";
+@import "components/stadistics";
+@import "components/card";
+@import "components/notifications";
+@import "components/products";
+@import "components/dropdown";
+@import "components/ranking";
+@import "components/buyerStadistics";
+
+/* Views */
+@import "views/home";
+
+/* Variables */
+:root {
+  --color-blue: rgb(0, 81, 255);
+  --border-radius-container: 10px;
+  --bg-gradient-blue: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 77%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}

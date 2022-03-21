@@ -1,0 +1,76 @@
+.app__navbar {
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  box-shadow: -1px 8px 22px -9px rgba(0, 0, 0, 0.17);
+  -webkit-box-shadow: -1px 8px 22px -9px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: -1px 8px 22px -9px rgba(0, 0, 0, 0.17);
+
+  @media screen and (min-width: 600px) {
+    padding: 15px 70px;
+  }
+}
+
+.app__navbar_logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.app__navbar_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__navbar_bell {
+  color: var(--color-blue);
+  margin-right: 25px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.app__navbar_menu {
+  display: flex;
+  justify-content: center;
+}
+.app__navbar_profile {
+  background-color: rgb(255, 255, 172);
+  height: 50px;
+  width: 50px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+}
+.app__navbar_profile-button {
+  border: none;
+  background-color: var(--color-blue);
+  color: white;
+  font-size: 13px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.app__navbar_menu_options {
+  position: absolute;
+  top: 100%;
+  margin-left: -80px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+  span {
+    font-size: 13px;
+    padding: 10px 20px;
+
+    &:first-child {
+      border-bottom: 1px solid #cbcbcb;
+    }
+  }
+}

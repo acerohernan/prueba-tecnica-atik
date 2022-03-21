@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/prueba-tecnica-atik/static/css/main.a20fc8a6.css",
+    "main.js": "/prueba-tecnica-atik/static/js/main.2b83bf47.js",
+    "static/media/product.jpg": "/prueba-tecnica-atik/static/media/product.e067e1733b298524a619.jpg",
+    "index.html": "/prueba-tecnica-atik/index.html",
+    "main.a20fc8a6.css.map": "/prueba-tecnica-atik/static/css/main.a20fc8a6.css.map",
+    "main.2b83bf47.js.map": "/prueba-tecnica-atik/static/js/main.2b83bf47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a20fc8a6.css",
+    "static/js/main.2b83bf47.js"
+  ]
+}
